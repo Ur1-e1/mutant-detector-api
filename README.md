@@ -16,7 +16,7 @@ Resumen rápido
 - [Ejecutar (modo desarrollo)](#ejecutar-modo-desarrollo)
 - [Endpoints útiles (local)](#endpoints-útiles-local)
 - [Tests y cobertura](#tests-y-cobertura)
-- [Docker y despliegue en render](#Docker-y-despliegue-en-render)
+- [Docker y despliegue en render](#docker-y-despliegue-en-render)
 - [Archivos relevantes](#archivos-relevantes-para-la-entrega)
 
 ---
@@ -216,7 +216,7 @@ docker run -p 8080:8080 mutantes-api
 
 Despliegue en Render
 
-- Una vez desplegado, pega aquí la URL pública proporcionada por Render: `[link render]`
+- La URL pública proporcionada por Render: `https://mutant-detector-api-nsx3.onrender.com`
 
 ## Archivos relevantes para la entrega
 
