@@ -217,6 +217,7 @@ docker run -p 8080:8080 mutantes-api
 Despliegue en Render
 
 - La URL pública proporcionada por Render: `https://mutant-detector-api-nsx3.onrender.com`
+- URL importantes: `https://mutant-detector-api-nsx3.onrender.com/swagger-ui.html` y `https://mutant-detector-api-nsx3.onrender.com/api-docs`
 
 ## Archivos relevantes para la entrega
 
