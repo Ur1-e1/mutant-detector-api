@@ -4,7 +4,7 @@
 Resumen rápido
 
 - API para detectar mutantes analizando matrices de ADN.
-- Stack: Java 17+, Spring Boot 3.x, Gradle.
+- Stack: Java 21, Spring Boot 3.x, Gradle.
 
 ## Índice
 

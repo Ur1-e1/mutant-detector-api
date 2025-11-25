@@ -6,6 +6,7 @@ import com.magneto.mutant_detector.util.MutantDetector;
 import com.magneto.mutant_detector.util.DnaHashUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.cache.annotation.Cacheable;
 
 @Service
 public class MutantService {
@@ -17,6 +18,7 @@ public class MutantService {
         this.dnaRecordRepository = dnaRecordRepository;
     }
 
+    @Cacheable("isMutantCache")
     public boolean isMutant(String[] dna) {
         // Calcular el hash
         String dnaHash = calculateDnaHash(dna);
